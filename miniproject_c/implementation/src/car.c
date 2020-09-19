@@ -66,17 +66,17 @@ void login()
 	switch(ch)
 	{
 	    case 1:printf("choose the car\n");
-		   printf("1.MARUTI 800\n2.FORD MUSTANG\n3.TATA NANO\n4.SWIFT                                      DZIRE\n5.INDCA\n6.EXIT\n");
+		   printf("1.Etios\n2.FORD\n3.TATA NANO\n4.SWIFT DZIRE\n5.INDCA\n6.EXIT\n");
 		   scanf("%d",&car4);
 		   switch(car4)
 		   {
-		    case 1:printf("MARUTHI 800\n");
+		    case 1:printf("Etios\n");
 			   printf("fuel =petrol\n");
 			   printf("1km=13rs\n");
 			   price= kms*13;
 			   printf("Total price=%f\n",price);
 			   break;
-		    case 2:printf("FORD MUSTANG\n");
+		    case 2:printf("FORD \n");
 			   printf("fuel=petrol\n");
 			   printf("1km=13rs\n");
 			   price=kms*13;
